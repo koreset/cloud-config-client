@@ -1,7 +1,7 @@
 {
-  "name": "cloud-config-client",
-  "version": "1.5.0",
-  "description": "Spring Cloud Config Client for NodeJS",
+  "name": "kore-config-client",
+  "version": "1.6.0",
+  "description": "Custom Spring Cloud Config Client for NodeJS",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/victorherraiz/cloud-config-client.git"
+    "url": "https://github.com/koreset/cloud-config-client.git"
   },
   "author": "Víctor Herraiz Posada <victor.herraiz@gmail.com> (https://github.com/victorherraiz)",
   "license": "MIT",
@@ -34,5 +34,11 @@
     "nock": "^11.6.0",
     "nyc": "^14.1.1",
     "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "lodash.isempty": "^4.4.0",
+    "lodash.merge": "^4.6.2"
   }
 }

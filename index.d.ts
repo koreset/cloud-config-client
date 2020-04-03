@@ -4,6 +4,7 @@ declare module 'cloud-config-client' {
 
     import http = require('http');
     import https = require('https');
+    import axios = require('axios')
 
     export function load(options: Options, callback?: LoadCallback): Promise<Config|Error>;
 
